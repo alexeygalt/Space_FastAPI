@@ -49,11 +49,16 @@ pytest . --cov
     http://127.0.0.1:8000/docs/
     ```
   This will take you to an UI like below:
-  ![Screenshot from 2020-06-21 22-15-18][screenshot_1]
-    
+  ![First][screenshot_1]
+  Send POST to auth/sing-up and create new user.
+
+ 
+* Press the authorize button on the right and add username and password. The APIs use OAuth2 (with hashed password and Bearer with JWT) based authentication. In this case, the username and password is ubuntu and debian respectively.
+  ![Second][screenshot_2]
 
 
 
 [fastapi]: https://fastapi.tiangolo.com/
 
 [screenshot_1]: https://user-images.githubusercontent.com/108652145/216345396-1e2a78b8-27a4-4f34-b7c1-9a7256f447dd.png
+[screenshot_2]: https://user-images.githubusercontent.com/108652145/216350326-e4e4b87d-d523-4ac5-913f-2b5c51268735.png

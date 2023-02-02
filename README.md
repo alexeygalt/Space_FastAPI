@@ -49,7 +49,7 @@ pytest . --cov
     http://127.0.0.1:8000/docs/
     ```
   This will take you to an UI like below:
-  [screenshot_1]
+  ![Screenshot from 2020-06-21 22-15-18][screenshot_1]
     
 
 
